@@ -1,0 +1,54 @@
+[
+  {
+    "framework": "GDPR",
+    "section": "Article 30",
+    "title": "Records of processing activities (ROPA)",
+    "source_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+    "source_excerpt": "Each controller and, where applicable, the controller’s representative, shall maintain a record of processing activities under its responsibility containing all of the following information: (a) the name and contact details of the controller; (b) the purposes of the processing; (c) a description of the categories of data subjects and of the categories of personal data; (d) the categories of recipients to whom the personal data have been or will be disclosed; (e) transfers of personal data to a third country or an international organisation, including identification of that third country or organisation; (f) envisaged time limits for erasure of the different categories of data; (g) a general description of the technical and organisational security measures.",
+    "summary_notes": "Maintain records describing processing purposes, categories of data/subjects, recipients, transfers, retention, and security measures.",
+    "tags": [
+      "records",
+      "accountability",
+      "ROPA"
+    ],
+    "last_reviewed": "2025-10-06"
+  },
+  {
+    "framework": "HIPAA",
+    "section": "Security Rule - 45 CFR \u00a7164.312",
+    "title": "Technical safeguards (e.g., access, audit, integrity, transmission security)",
+    "source_url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C/section-164.312",
+   "source_excerpt": "§164.312 Technical safeguards.\n\nA covered entity or business associate must, in accordance with §164.306:\n\n(a)(1) Standard: Access control. Implement technical policies and procedures for electronic information systems that maintain electronic protected health information to allow access only to those persons or software programs that have been granted access rights as specified in §164.308(a)(4).\n(2) Implementation specifications:\n(i) Unique user identification (Required). Assign a unique name and/or number for identifying and tracking user identity.\n(ii) Emergency access procedure (Required). Establish (and implement as needed) procedures for obtaining necessary electronic protected health information during an emergency.\n(iii) Automatic logoff (Addressable). Implement electronic procedures that terminate an electronic session after a predetermined time of inactivity.\n(iv) Encryption and decryption (Addressable). Implement a mechanism to encrypt and decrypt electronic protected health information.\n\n(b) Standard: Audit controls. Implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information.\n\n(c)(1) Standard: Integrity. Implement policies and procedures to protect electronic protected health information from improper alteration or destruction.\n(2) Implementation specification: Mechanism to authenticate electronic protected health information (Addressable). Implement electronic mechanisms to corroborate that electronic protected health information has not been altered or destroyed in an unauthorized manner.\n\n(d) Standard: Person or entity authentication. Implement procedures to verify that a person or entity seeking access to electronic protected health information is the one claimed.\n\n(e)(1) Standard: Transmission security. Implement technical security measures to guard against unauthorized access to electronic protected health information that is being transmitted over an electronic communications network.\n(2) Implementation specifications:\n(i) Integrity controls (Addressable). Implement security measures to ensure that electronically transmitted electronic protected health information is not improperly modified without detection until disposed of.\n(ii) Encryption (Addressable). Implement a mechanism to encrypt electronic protected health information whenever deemed appropriate.",
+    "summary_notes": "Implement access control, audit controls, integrity controls, and transmission security for ePHI.",
+    "tags": [
+      "security",
+      "ePHI",
+      "technical"
+    ],
+    "last_reviewed": "2025-10-06"
+  },
+  {
+  "framework": "NIST AI RMF",
+  "section": "Map / Measure / Manage / Govern",
+  "title": "AI Risk Management Core Functions",
+  "source_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+  "source_excerpt": "The NIST AI Risk Management Framework (AI RMF) is organized around four core functions: Map, Measure, Manage, and Govern.\n\nThese functions are designed to help organizations address the risks of AI systems in practice.\n\nThe Map function establishes context and identifies risks related to AI.\nThe Measure function assesses, analyzes, and monitors AI risks and impacts.\nThe Manage function prioritizes and implements risk treatment plans.\nThe Govern function provides the policies, processes, and organizational structures that support continuous risk management for trustworthy AI.",
+  "summary_notes": "Identify, assess, and mitigate AI risks using the four NIST functions: Map (context and risks), Measure (assess and monitor), Manage (treat and prioritize), and Govern (policy and oversight).",
+  "tags": ["AI", "risk", "governance", "NIST"],
+  "last_reviewed": "2025-10-06"
+},
+  {
+    "framework": "SOC 2 (TSC)",
+    "section": "CC6.x (Change Management) \u2014 overview",
+    "title": "Change management expectations (public summary)",
+    "source_url": "https://www.aicpa.org/ (search: SOC 2 Trust Services Criteria overview)",
+    "source_excerpt": "<PASTE PUBLIC OVERVIEW EXCERPT HERE>",
+    "summary_notes": "Document, approve, test, and track changes to systems with appropriate segregation of duties and rollback plans.",
+    "tags": [
+      "change",
+      "TSC",
+      "controls"
+    ],
+    "last_reviewed": "2025-10-06"
+  }
+]
