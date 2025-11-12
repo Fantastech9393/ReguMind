@@ -59,3 +59,5 @@ ReguMind/
 - Include semantic search using a transformer-based embedding model.
 - Optionally deploy via FastAPI or Streamlit Cloud.
 
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
